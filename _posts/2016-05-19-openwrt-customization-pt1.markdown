@@ -90,7 +90,7 @@ OpenWRT git repository.  We will be using the menuconfig setup option for buildi
 mkdir package/network/services/duo
 (cd package/network/services/duo ; wget https://raw.githubusercontent.com/jbeley/packages/master/net/duo/Makefile )
 ./scripts/feeds update -a
-./scripts/feeds install duo
+./scripts/feeds install -a
 {% endhighlight %}
 
 
