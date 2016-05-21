@@ -117,9 +117,8 @@ Dependencies for DUO enabled OpenVPN are below.
 | Dependency | Note | Location |
 | :------------- | :------------- | :---------- |
 | duo | plugin for duo MFA. All other dependencies will be added automatically | Network |
-| openssl | ubiquitous SSL library  | Libraries/SSL |
-| luci | OpenWRT configuration web interface - is not included by default in
-custom builds | Luci |
+| openssl |  SSL library  | Libraries/SSL |
+| luci | OpenWRT configuration web interface - is not included by default in custom builds | Luci |
 
 First build will take a  **LONG** time to build as the cross compiler tools must
 be built. Binaries for the target devices will be generated using the cross
