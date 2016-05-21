@@ -45,7 +45,6 @@ tools and features that I wanted.
 The Asus RT-N16 uses a  Broadcom BCM4716 SOC with a  MIPS 74Kc V4.0 CPU. These
 details will be needed for the custom build process.
 
-
 Pre-Install
 ---
 Make a [backup](https://wiki.openwrt.org/doc/howto/generic.backup) of the configuration if needed.
@@ -83,7 +82,7 @@ git remote add -t chaos_calmer openwrt https://github.com/openwrt/openwrt.git
 git pull chaos_calmer
 {% endhighlight %}
 
-Now we have a pristine build envirnment for the chaos_calmer branch of the
+Now we have a pristine build environment for the chaos_calmer branch of the
 OpenWRT git repository.  We will be using the menuconfig setup option for building our custom firmware.  The interface is a ncurses based TUI with arrow based navigation.
 
 
