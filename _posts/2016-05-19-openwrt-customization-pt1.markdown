@@ -23,7 +23,7 @@ We will be building a firmware image from source. We'll need:
 
 * Build Environment - For making awesome OpenWRT firmware
 * Time - Building the first image with the toolchain may take as little as a few
-  mines to a couple of hours, depending on your build machine and the options
+  minutes to a couple of hours, depending on your build machine and the options
   chosen for your custom firmware
 * Disk Space - 8GB of storage
 * Internet connection - to download source packages for building the custom
@@ -57,10 +57,10 @@ up the [OpenWRT build environment](https://wiki.openwrt.org/doc/howto/build)
 
 ## DUO
 We'll be customizing our firmware to include the [DUO Security](https://duo.com/)
-mutli-factor authentication platform. DUO has a push based authentication as
+multi-factor authentication platform. DUO has a push based authentication as
 well as SMS and OTP code authentication support. DUO is currently free for less
 than 10 users and augments authentication methods such as Linux PAM,
-LDAP/Active Directory, and Windows RDP. We will using their [OpenVPN
+LDAP/Active Directory, and Windows RDP. We will be using their [OpenVPN
 plugin](https://github.com/duosecurity/duo_openvpn) to add multifactor
 authentication to our OpenWRT based OpenVPN setup.
 
