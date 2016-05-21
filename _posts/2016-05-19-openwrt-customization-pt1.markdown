@@ -145,7 +145,7 @@ ssh root@192.168.1.1 sysupgrade -i
 After the reboot (less than about a minute), I was able to login to my router
 and continue the configuration process.
 
-
+Part two to follow.
 
 
 ## TODO
