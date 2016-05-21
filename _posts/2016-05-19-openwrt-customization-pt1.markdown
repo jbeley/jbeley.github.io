@@ -79,7 +79,7 @@ mkdir /data/openwrt/
 cd /data/openwrt/
 git init
 git remote add -t chaos_calmer openwrt https://github.com/openwrt/openwrt.git
-git pull chaos_calmer
+git pull openwrt
 {% endhighlight %}
 
 Now we have a pristine build environment for the chaos_calmer branch of the
